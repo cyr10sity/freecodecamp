@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 2rem;
+    color: white;
+    line-height: 10px;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font-weight: 400;
+    color: white;
+    line-height: 10px;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #7d5fff;
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    background-color: #40407a;
+    border-radius: 4px;
+    padding: 40px 30px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+}
+
+button {
+    background-color: #33d9b2;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #33d9b2;
+    display: block;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+}
