@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin-top: 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Norican', cursive;
+    font-size: 30px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+#header-img {
+    width: 120px;
+    height: 70px;
+    padding-left: 40px;
+}
+
+#nav-bar {
+    width: 50%;
+    height: 60px;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #3d3d3d;
+}
+
+.video-page {
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.video {
+    text-align: center;
+    color: #3d3d3d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.embed-container {
+    position: relative;
+    background: #d1d8e0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#features h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    color: #4b4b4b;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    margin: 20px;
+    font-size: 1.5em;
+    color: #4b4b4b;
+    font-family: 'Poppins', sans-serif;
+}
+
+#features {
+    padding: 10px 130px;
+    background: #ff9f1a;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    padding: 20px;
+    font-size: 16px;
+    color: #3d3d3d;
+    font-family: 'Poppins', sans-serif;
+    display: inherit;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#email {
+    min-width: 250px;
+    padding: 5px 5px;
+    margin: 10px 0;
+}
+
+#submit {
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ff9f1a;
+    color: #3d3d3d;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+#pricing {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    border: 1px solid #000;
+    border-radius: 6px;
+    background: white;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+    #product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product .level {
+        background-color: #57606f;
+        color: white;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 15px 0;
+    }
+
+    .product button {
+        border: 3;
+        margin: 20px 0;
+        background-color: #2ed573;
+        font-weight: 400;
+        width: 80px;
+        height: 30px;
+        border-radius: 6px;
+        font-family: 'Poppins', sans-serif;
+        color: #57606f;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .product p {
+        color: #3d3d3d;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .product h2 {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        line-height: 1.5em;
+        margin: 15px;
+    }
+
+    #page-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 15px;
+        background-color: #dfe4ea;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #page-footer ul {
+        display: flex;
+        list-style: none;
+    }
+
+    #page-footer ul li {
+        padding: 0 10px;
+    }
+
+    #page-footer span {
+        margin-top: 3px;
+        margin-right: 40px;
+        color: #444;
+        font-family: 'Poppins', sans-serif;
+        color: #747d8c;
+        font-size: 16px;
+    }
+
+    #page-footer a {
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: #4b4b4b;
+        font-size: 18px;
+    }
+
+    footer hr {
+        border-color: #ff9f1a;
+    }
+
+    #credit p {
+        font-family: 'Norican', cursive;
+        color: #4b4b4b;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #features icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 125px;
+        width: 20vw;
+        color: #7dffdc;
+    }
+}
